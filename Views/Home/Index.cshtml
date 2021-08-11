@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form  autocomplete="off" onSubmit="return false;">
+
+    <div class="form-group">
+        <label for="Create"  class="control-label"></label>
+        <input type="text" id="InputCommand" name="Command"  class="form-control" runat="server" />
+    </div>
+
+    <div class="form-group">
+    </div>
+        <div class="form-group">
+            <textarea id="Result" name="console" rows="15" cols="100" runat="server" readonly></textarea>
+        </div>
+    </form>
